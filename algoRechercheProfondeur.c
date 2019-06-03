@@ -15,7 +15,7 @@ static int sommetExplore[ORDRE] ={false,false,false,false,false,false};
 //
 //	Sortie : Rien ; uniquement de l'affichage
 //////////////////////////////////////////////////////////////////////////
-void explorer(int ordre, bool tab[ORDRE][ORDRE], int sommet){
+void explorer(int ordre, bool tab[ordre][ordre], int sommet){
 
 	//	Affichage du sommet exploré, puis indication de l'exploration
 	printf("%d -> ", sommet +1);
@@ -46,4 +46,6 @@ int main(void) {
 
 	//	On efface la derniere flèche
 	printf("\b\b\b   \n");
+
+	return 0;
 }
